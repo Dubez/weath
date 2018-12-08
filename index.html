@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your One-Stop Shop for Local Weather Information!</title>
+
+</head>
+<div class="topnav">
+    <a class="active" href="./index.html">Home</a>
+    <a href="./about.html">About</a>
+    <a href="./coord.html">Know Your Coordinates</a>
+    <a href="./contact.html">Contact</a>
+
+</div>
+
+<body>
+<p>Your one-stop shop for free and credible weather information about your chosen location.</p>
+<div class="container">
+    <form action="/" method="post">
+        Enter Your City: <input type="search" name="q" id="txtValue" placeholder="Enter a City"><br>
+        <input type="submit" value="Submit">
+
+
+    </form>
+    <script><% if(weather !== null){ %>
+    <p><%= weather %></p>
+            <% } %>
+
+    <% if(error !== null){ %>
+    <p><%= error %></p>
+            <% } %>
+    </script>
+</div>
+
+</body>
+</html>
