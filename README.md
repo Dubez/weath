@@ -1,4 +1,4 @@
-SE 575 Final Project
+<h2>SE 575 Final Project</h2>
 
 This repository contains the files for my final project. 
 In a nutshell, my final project is a web service that aims to meet at least two needs:
