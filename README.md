@@ -19,4 +19,8 @@ A few third-party modules had to be installed before importing to the project us
 
 The link to my screencast presentation is: https://youtu.be/mqdptAMCqvk
 
-A docker container  of this application and related information can be found here: docker pull dubez/node-app
+A docker container  of this application and related information can be found here: https://hub.docker.com/r/dubez/node-app/
+The container is private and can be pulled using the command below:
+
+
+                            $ docker pull dubez/node-app
