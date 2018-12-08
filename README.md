@@ -14,5 +14,6 @@ The project was done using the Node.js framework with the following parts:
 - A citytemp.js JavaScript module to server as the weather forecast acquirer. Much like the former module, this module also     takes as input, the name of a city from the user, and in the background, makes a routine call to the citytocoord.js module      to parse the city into latitude and longitude. With these information, an API call is made to the Dark Sky website              (www.darksky.net) to retrieve the city's weather forecast. Again, a static API key is used in this module. This long route      is taken since there are no other weather information providers offering free API calls.
 
 A few third-party modules had to be installed before importing to the project using the following command at the terminal:
+
                             $ npm install <module name> --save
 
