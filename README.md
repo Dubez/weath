@@ -18,3 +18,5 @@ A few third-party modules had to be installed before importing to the project us
                             $ npm install <module name> --save
 
 The link to my screencast presentation is: https://youtu.be/mqdptAMCqvk
+
+A docker container  of this application and related information can be found here: docker pull dubez/node-app
